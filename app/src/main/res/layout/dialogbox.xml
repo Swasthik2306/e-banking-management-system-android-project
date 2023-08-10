@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="675dp"
+    android:layout_gravity="center"
+    android:background="@drawable/cardviewdialog">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="LIFE INSURANCE"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="322dp"
+        android:layout_height="380dp"
+        android:layout_margin="20dp"
+        android:text="Life is unpredictable! Provide financial stability through comprehensive protection plans. Any kind of unforeseen risk may arise such as a medical emergency, an accident, a natural calamity or the loss of a loved one. Protect yourself and your family against such risks with our Life insurance plan and get the policy, instantly with just a few clicks. High medical bills wil need not be a worry if you have the right insurance policy in place."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:lineHeight="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#79B1D9"
+        android:text="APPLY NOW!!!"
+        android:textColor="#35216A"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

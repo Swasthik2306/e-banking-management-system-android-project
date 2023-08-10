@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "69554574859",
+    "firebase_url": "https://horizon-19019-default-rtdb.firebaseio.com",
+    "project_id": "horizon-19019",
+    "storage_bucket": "horizon-19019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69554574859:android:78dc480aa98cb17fea590e",
+        "android_client_info": {
+          "package_name": "ajiet.ise.dept.horizonbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69554574859-ncgohk8u93eabim96hi04qqdra82jien.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnkJx6p7s6_vMXjU_p1F9k61pIJmUiBGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69554574859-ncgohk8u93eabim96hi04qqdra82jien.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

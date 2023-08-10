@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ba"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:text="Horizon Bank"
+        android:textColor="#000707"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EBE7DC"
+        android:backgroundTintMode="src_atop"
+        android:fontFamily="@font/andada"
+        android:gravity="center"
+        android:text="Building a Better Tomorrow Together"
+        android:textColor="#040000"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="register"
+        android:textColor="#040000"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/remail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+       android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        android:background="@drawable/border"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:drawableLeft="@drawable/profile"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="email"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingLeft="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <EditText
+        android:id="@+id/rpassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+        android:ems="10"
+
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingLeft="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/passhs"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="60dp"
+            android:src="@drawable/show" />
+    </RelativeLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <EditText
+        android:id="@+id/rconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="confirm-password"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingLeft="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/confhs"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="60dp"
+            android:src="@drawable/show" />
+    </RelativeLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0067A8"
+        android:color="@color/design_default_color_secondary_variant"
+        android:cursorVisible="false"
+        android:foregroundTint="@color/teal_700"
+        android:paddingBottom="5dp"
+        android:text="REGISTER"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textColor="#FCF9F9"
+        android:textCursorDrawable="@android:drawable/alert_dark_frame"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:iconPadding="10dp"
+        app:iconTint="@color/teal_700"
+        app:iconTintMode="screen"
+        app:rippleColor="#80B2EF"
+        app:strokeColor="#04245B" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Already has an account!"
+        android:textColor="#F8F5F5"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

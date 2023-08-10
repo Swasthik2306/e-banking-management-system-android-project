@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="5000"
+        motion:autoTransition="animateToEnd">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnSwipe motion:maxAcceleration="0.1"
+            motion:maxVelocity="2.78" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/constraintLayout"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:scaleX="10"
+            android:scaleY="10"
+            motion:transitionEasing="cubic(0.21,0.18,0.8,0.8)" />
+        <Constraint
+            android:id="@+id/imageView3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:visibility="invisible" />
+        <Constraint
+            android:id="@+id/imageView4"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:rotationX="1"
+            android:rotationY="1"
+            android:visibility="visible" />
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView11"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="172dp"
+            motion:layout_constraintHorizontal_bias="0.517" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/paydonetext"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:scaleX="0"
+            android:scaleY="0"
+            motion:layout_editor_absoluteX="158dp"
+            motion:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/constraintLayout"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:scaleX="1"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:scaleY="1" />
+        <Constraint
+            android:id="@+id/imageView3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:alpha="1"
+            motion:transitionEasing="cubic(0.39,0.39,0.6,0.6)"
+            android:visibility="visible"
+            motion:pathMotionArc="none" />
+        <Constraint
+            android:id="@+id/imageView4"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:scaleX="0"
+            android:scaleY="0"
+            motion:transitionEasing="cubic(0.2,0.19,0.8,0.77)"
+            android:visibility="invisible"
+            android:alpha="10" />
+        <Constraint
+            android:id="@+id/paydonetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteY="512dp"
+            motion:layout_editor_absoluteX="158dp"
+            android:scaleX="1"
+            android:scaleY="1"
+            motion:transitionEasing="cubic(0.2,0.19,0.8,0.77)" />
+    </ConstraintSet>
+</MotionScene>

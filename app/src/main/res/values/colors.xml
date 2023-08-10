@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navi2">#05537B</color>
+    <color name="navi1">#68AFD3</color>
+    <color name="teal_700">#36F1F4</color>
+    <color name="tback">#7DB0E3</color>
+</resources>

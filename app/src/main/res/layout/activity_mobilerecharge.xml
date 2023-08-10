@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mobilerecharge"
+    android:background="@drawable/back">
+
+    <Button
+        android:id="@+id/pay3"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="296dp"
+        android:backgroundTint="#2E4095"
+        android:fontFamily="@font/adamina"
+        android:text="pay"
+        android:textSize="30sp"
+        app:cornerRadius="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/phone2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="phone number"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phone3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="sector"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/phone4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="308dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/material_on_surface_stroke"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="plans"
+        android:inputType="phone"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Mobile Recharge"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
